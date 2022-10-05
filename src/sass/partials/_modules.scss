@@ -1,0 +1,18 @@
+@include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+}
+.privacy{
+    &-s1{
+        background-position-x: right!important;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
